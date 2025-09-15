@@ -12,12 +12,13 @@ if Question1 == "snooze":
 
     if Question2 == "ignore":
         print("he gets angry with you and sends you back to your realm")
-        Question3 = ("You wake up scared and late for work, you call in sick. Do you eat breakfast or sleep?")
+
+        Question3 = input("You wake up scared and late for work, you call in sick. Do you eat breakfast or sleep?")
 
         if Question3 == "sleep":
             print("you can't sleep, you just think about that creature\n" \
             "you should have listened to him.\n")
-            test1 = ("Do you remember the rule, yes or no?")
+            test1 = input("Do you remember the rule, yes or no?")
 
             if test1 == "yes":
                 print("Good, you remembered now would you like to go back to the realm?")
@@ -136,8 +137,8 @@ if Question1 == "snooze":
             print("What do you need help with?")
             Question7 = input("late to work or something else")
 
-            if Question7 == "late for work":
-                print("'look at where you are, you don't need to worry about that anymore\n" \
+            if Question7 == "late":
+                print("look at where you are, you don't need to worry about that anymore\n" \
                 "but if you insist I can help you with that\n" \
                 "He opens a gate to your work place to be there instantly on time\n" \
                 "'Now go ahead'\n" \
