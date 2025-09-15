@@ -1,1 +1,33 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/18nK7qGW)
+# Life Choice Game
+
+An interactive text-based adventure game written in Python.  
+You play as yourself, following a one rule:  
+*Never answer with "no".*
+
+Depending on your choices, you’ll experience different story paths and multiple endings — some lighthearted, some dark.
+
+## Features:                                          
+* Multiple decision branches and outcomes.
+* Choices affect the story in surprising ways.
+* Hidden tests to check if you follow the rule.
+* Fun, surreal endings
+
+## Run this on:                                                                 
+python3 game.py
+
+## Structue:                                                         
+life-choice-game/                                                                                                                    
+│── game.py                                                  
+│── images/                                                                                                                                                          
+│   └── life_choice_flowchart_highres.png                                                                                            
+└── README.md                
+
+## Installation:                                                                          
+Clone the repository
+
+
+### screenshot of code and game:                                                               
+
+
+This is a flow chart of my game and every single decision:
+![Life Choice Flowchart](life_choice_flowchart.png)
